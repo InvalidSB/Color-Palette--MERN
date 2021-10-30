@@ -1,0 +1,104 @@
+.profilecontainer {
+  padding-top: 3%;
+  width: 90%;
+  margin: auto;
+}
+.innerup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.profileru {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  padding:20px;
+  border-radius: 20px;
+  border: 2px dotted indigo;
+  height: fit-content;
+}
+
+.editformobile{
+  
+  display: block;
+  float: right;
+   margin-left: 20px; 
+   cursor: pointer;
+   color:black;
+}
+.mobileshow{
+  display: none !important;
+  margin-left:-1000px;
+}
+
+.upperpartside {
+  width: 80%;
+  margin: auto;
+}
+
+.flexpart {
+  margin: auto;
+}
+.lowerpartps {
+  width: 60%;
+  margin: auto;
+}
+.uploadbox {
+  margin: 30px 0px;
+  padding: 40px;
+  box-shadow: 2px 2px 4px 3px gray;
+  border-radius: 20px;
+}
+.uploadinputsign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .profilecontainer {
+    padding-top: 4%;
+    width: 99%;
+  }
+  .innerup {
+    display: block;
+    margin: auto;
+    width: 95%;
+    flex-direction: column;
+  }
+  .profileru {
+    width: 95%;
+    margin: auto;
+  padding:10px;
+  margin-bottom: 20px;
+
+  }
+  .upperpartside{
+    margin:100px auto;
+  }
+  .lowerpartps {
+    width: 100%;
+  }
+  .uploadbox{
+      padding: 20px;
+  }
+  .uploadinputsign {
+    flex-direction: column;
+    align-items: center;
+  }
+  .editformobile{
+    margin-right: 180px;
+    font-size: 40px !important;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+  }
+  .deleteicon{
+    display: none;
+  }
+  .mobileshow{
+    display: block !important;
+  }
+  
+}
