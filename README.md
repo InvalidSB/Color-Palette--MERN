@@ -4,8 +4,8 @@ This is simple mern application created on the purpose of copying the color whic
 ## Visit site >
 https://mycopa.herokuapp.com/
 
-Some pictures :-
-
+## Some pictures :
+---
 ### Home Page
 ![homepage](images/home.png)
 ### User Profile
