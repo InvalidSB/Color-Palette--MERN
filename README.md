@@ -1,7 +1,7 @@
 # Color-Palette--MERN
 This is simple mern application created on the purpose of copying the color which you want to use on your design. create your own color palette for further use.
 
-### visit site 
+## Visit site >
 https://mycopa.herokuapp.com/
 
 Some pictures :-
